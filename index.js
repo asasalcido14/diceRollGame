@@ -18,12 +18,12 @@ document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
 //If player 1 wins
 if (randomNumber1 > randomNumber2) {
-  document.querySelector("h1").innerHTML = "player 1 wins";
+  document.querySelector("h1").innerHTML = "Player 1 wins!🙋🏽‍♀️";
 }
 else if (randomNumber2 > randomNumber1) {
-  document.querySelector("h1").innerHTML = "player 2 wins";
+  document.querySelector("h1").innerHTML = "Player 2 wins!🙋🏽‍♂️";
 }
 
 else if (randomNumber1 = randomNumber2) {
-  document.querySelector("h1").innerHTML = "y'all done tied";
+  document.querySelector("h1").innerHTML = "Draw!🙅🙅🏼‍♀️";
 }
